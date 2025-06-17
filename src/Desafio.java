@@ -21,12 +21,17 @@ public class Desafio {
 
 
 
-        System.out.println("__________________________");
-        System.out.println("\nNome do Cliente: " + nome);
-        System.out.printf("Número da conta e agência: %s %s\n", numeroDaConta, agencia);
-        System.out.println("tipo de conta: " + tipoConta);
-        System.out.println("Saldo atual: " + saldo);
-        System.out.println("\n__________________________");
+        System.out.println("\n===============================");
+        System.out.println("     DADOS DA CONTA BANCÁRIA    ");
+        System.out.println("===============================\n");
+
+        System.out.printf("👤 Nome do Cliente:     %s\n", nome);
+        System.out.printf("🏦 Conta / Agência:     %d / %s\n", numeroDaConta, agencia);
+        System.out.printf("💳 Tipo de Conta:       %s\n", tipoConta);
+        System.out.printf("💰 Saldo Atual:         R$ %.2f\n", saldo);
+
+        System.out.println("\n===============================\n");
+
 
 
         String menu = """
