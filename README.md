@@ -19,7 +19,7 @@ Projeto simples em Java que simula um banco virtual. Permite ao usuário criar u
 ## 🛠️ Tecnologias
 
 - Java (versão compatível com `Scanner` e `text blocks`)  
-- IDE de sua preferência (IntelliJ IDEA, Eclipse, VS Code...)
+- Inteliji
 
 ---
 
