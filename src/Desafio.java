@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Desafio {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double saldo = 0;
+        double saldo = 100;
         int opcao = 0;
 
         System.out.println("Informe seu nome: ");
