@@ -2,14 +2,28 @@ import java.util.Scanner;
 
 public class Desafio {
     public static void main(String[] args) {
-        String nome = "Pedro";
-        String tipoConta = "Corrente";
-        double saldo = 2000.00;
+        Scanner scanner = new Scanner(System.in);
+        double saldo = 0;
         int opcao = 0;
+
+        System.out.println("Informe seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Informe o número da sua conta: ");
+        int numeroDaConta = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println("Informe a agência: ");
+        String agencia = scanner.nextLine();
+
+        System.out.println("Informe o tipo da sua conta: ");
+        String tipoConta = scanner.nextLine();
+
 
 
         System.out.println("__________________________");
         System.out.println("\nNome do Cliente: " + nome);
+        System.out.printf("Número da conta e agência: %s %s\n", numeroDaConta, agencia);
         System.out.println("tipo de conta: " + tipoConta);
         System.out.println("Saldo atual: " + saldo);
         System.out.println("\n__________________________");
@@ -28,7 +42,6 @@ public class Desafio {
                 ----------------------
                 """;
 
-        Scanner scanner = new Scanner(System.in);
 
         while (opcao != 4) {
             System.out.println(menu);
